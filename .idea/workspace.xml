@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="1st-s3" />
+    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="read me">
+      <change afterPath="$PROJECT_DIR$/backend-s3.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keypairs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/.terraform/terraform.tfstate" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +27,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2E2OzRhFSHUQIlua6VdGkv6vUNt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661803273211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="read me">
+      <created>1661807818603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661807818603</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +108,7 @@
     <MESSAGE value="Tittle" />
     <MESSAGE value="backend-bucket" />
     <MESSAGE value="1st-s3" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st-s3" />
+    <MESSAGE value="read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="read me" />
   </component>
 </project>
