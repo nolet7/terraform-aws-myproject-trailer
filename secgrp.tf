@@ -16,9 +16,9 @@ resource "aws_security_group" "proj-bean-elb-sg" {
   }
 }
 resource "aws_security_group" "proj-bastion-sg" {
-        name = "proj1-bastion-sg"
-        Description = "security group for bastion ec2 instance"
-        vpc_id = module.vpc.vpc_id
+  name = "proj1-bastion-sg"
+  description = "security group for bastion ec2 instance"
+  vpc_id = module.vpc.vpc_id
 egress {
   from_port = 0
   protocol  = "-1"
