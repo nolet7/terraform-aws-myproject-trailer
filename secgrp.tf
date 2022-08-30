@@ -34,7 +34,7 @@ egress {
 }
 resource "aws_security_group" "proj1-pord-sg" {
   name = "proj1-prod-sg"
-  Description = "security group for beanstalk instances"
+  description = "security group for beanstalk instances"
   vpc_id = module.vpc.vpc_id
   egress {
     from_port = 0
