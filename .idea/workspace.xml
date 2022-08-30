@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="security group updated1" />
+    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="security group updated2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secgrp.tf" beforeDir="false" afterPath="$PROJECT_DIR$/secgrp.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661892041288</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="security group updated2">
+      <created>1661892099953</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661892099953</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +174,7 @@
     <MESSAGE value="security group" />
     <MESSAGE value="security group updated" />
     <MESSAGE value="security group updated1" />
-    <option name="LAST_COMMIT_MESSAGE" value="security group updated1" />
+    <MESSAGE value="security group updated2" />
+    <option name="LAST_COMMIT_MESSAGE" value="security group updated2" />
   </component>
 </project>

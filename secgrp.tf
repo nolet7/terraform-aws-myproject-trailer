@@ -51,7 +51,7 @@ resource "aws_security_group" "proj1-pord-sg" {
 }
 resource "aws_security_group" "proj1-backend-sg" {
   name = "proj1-backend-sg"
-  Description = "security group for RDS,active mq,elastic cache"
+  description = "security group for RDS,active mq,elastic cache"
   vpc_id = module.vpc.vpc_id
   egress {
     from_port = 0
