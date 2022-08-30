@@ -6,7 +6,7 @@ resource "aws_security_group" "proj-bean-elb-sg" {
     from_port  = 0
     protocol   = "-1"
     to_port    = 0
-    cidr_block = ["0.0.0.0/0"]
+    cidr_blocks = ["0.0.0.0/0"]
   }
   ingress {
     from_port   = 80
