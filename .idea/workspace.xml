@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="vpc module">
+    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="vpc module-update">
+      <change afterPath="$PROJECT_DIR$/secgrp.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/vpc.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661883719289</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="vpc module-update">
+      <created>1661883932142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661883932142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +143,7 @@
     <MESSAGE value="read me" />
     <MESSAGE value="key pair" />
     <MESSAGE value="vpc module" />
-    <option name="LAST_COMMIT_MESSAGE" value="vpc module" />
+    <MESSAGE value="vpc module-update" />
+    <option name="LAST_COMMIT_MESSAGE" value="vpc module-update" />
   </component>
 </project>
