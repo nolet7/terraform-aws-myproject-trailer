@@ -1,6 +1,6 @@
 resource "aws_security_group" "proj-bean-elb-sg" {
   name        = "proj1-bean-elb-sg"
-  Description = "security group for bean-elb"
+  description = "security group for bean-elb"
   vpc_id      = "module.vpc.vpc_id"
   egress {
     from_port  = 0
