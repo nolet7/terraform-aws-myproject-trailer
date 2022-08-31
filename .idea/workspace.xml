@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="updated security group">
-      <change afterPath="$PROJECT_DIR$/rds-services-group.tf" afterDir="false" />
+    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="backend services">
+      <change afterPath="$PROJECT_DIR$/bean-app.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661893317056</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="backend services">
+      <created>1661966707038</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661966707038</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +220,7 @@
     <MESSAGE value="security group updated-final" />
     <MESSAGE value="updated security after error" />
     <MESSAGE value="updated security group" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated security group" />
+    <MESSAGE value="backend services" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend services" />
   </component>
 </project>
