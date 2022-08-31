@@ -1,5 +1,5 @@
 resource "aws_elastic_beanstalk_environment" "proj1-prod" {
-  application         = aws_elastic_beanstalk_application.proj1-prod
+  application         = aws_elastic_beanstalk_application.proj1-prod.name
   name                = "proj1-prod"
   solution_stack_name = "64bit Amazon Linux 2 v4.1.1 running Tomcat 8.5 corretto 11"
   cname_prefix        = "proj1-bean-prod-domain"
@@ -128,7 +128,7 @@ resource "aws_elastic_beanstalk_environment" "proj1-prod" {
   setting {
     namespace = "aws:elbv2:loadbalancer"
     name      = "SecurityGroups"
-    value     = aws_security_group.proj-bean-elb-sg
+    value     = aws_security_group.proj-bean-elb-sg.id
   }
   depends_on = [aws_security_group.proj-bean-elb-sg, aws_security_group.proj1-pord-sg]
 }
