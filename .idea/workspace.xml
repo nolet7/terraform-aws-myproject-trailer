@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="updated rds services">
+    <list default="true" id="98546b8d-70f7-41b3-9668-57d7679de2e4" name="Changes" comment="updated vars">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rds-services-group.tf" beforeDir="false" afterPath="$PROJECT_DIR$/rds-services-group.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/vars.tf" afterDir="false" />
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661979107558</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated vars">
+      <created>1661997029423</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1661997029423</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +260,7 @@
     <MESSAGE value="beanstalk environment" />
     <MESSAGE value="backend services" />
     <MESSAGE value="updated rds services" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated rds services" />
+    <MESSAGE value="updated vars" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated vars" />
   </component>
 </project>

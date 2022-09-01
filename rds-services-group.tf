@@ -18,7 +18,7 @@ resource "aws_db_instance" "proj1-rds" {
   storage_type           = "gp2"
   engine                 = "mysql"
   engine_version         = "5.6.34"
-  name                   = var.dbname
+  name                   = var.db_name
   username               = var.dbuser
   password               = var.dbpass
   parameter_group_name   = "default.mysql 5.6"
