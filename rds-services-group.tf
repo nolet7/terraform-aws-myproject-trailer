@@ -37,7 +37,7 @@ resource "aws_elasticache_cluster" "proj1-cache" {
   parameter_group_name = "default.memcached1.5"
   port                 = 11211
   security_group_ids   = [aws_security_group.proj1-backend-sg.id]
-  subnet_group_name = aws_elasticache_subnet_group.proj1-ecache-subgrp.name
+  subnet_group_name    = aws_elasticache_subnet_group.proj1-ecache-subgrp.name
 }
 resource "aws_mq_broker" "proj1-rmq" {
   broker_name        = "proj1-rmq"
